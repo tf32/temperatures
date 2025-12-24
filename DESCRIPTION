@@ -1,0 +1,24 @@
+Package: temperatures
+Title: temperatures
+Version: 0.0.0.9000
+Authors@R: 
+    person("Ramon", "Torné", , "first.last@example.com", role = c("aut", "cre"))
+Description: temperatures is an R package project build for exploring, plotting and projecting temperatures.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    stats,
+    forecast,
+    ggplot2,
+    dplyr,
+    forecast,
+    utils
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown
+Config/testthat/edition: 3
+vignetteBuilder: knitr
+Depends: 
+    R (>= 3.5)
+LazyData: true
