@@ -22,4 +22,5 @@ projection<-function(df, depth="", temp="", start="2000", monthspred="", plot=FA
   if(plot==TRUE){
     plot(forecast,main=paste("Temperature prediction for a depth of", d, "for", monthspred, "months"))
   }
-  return(f
+  return(forecast)
+}

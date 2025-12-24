@@ -13,4 +13,4 @@
 #'   \item{diff}{Difference between temperatures}
 #'
 #' }
-"simtemper
+"simtemperatures"

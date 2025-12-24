@@ -74,4 +74,10 @@ monthlydiff <- function(df, previous30 = FALSE) {
       color = "Depth"
     ) +
     theme_bw() +
-    theme(axis.text.x
+    theme(axis.text.x = element_text(angle = 90, hjust = 1),
+          plot.title = element_text(face = "bold", colour = "black", size = 10),
+          strip.text = element_text(colour = "white", size = 10),
+          strip.background = element_rect(fill = "black", color = "black", linewidth = 1))
+  show(p)
+  return(mean_df_dif)
+}

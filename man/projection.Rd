@@ -34,4 +34,5 @@ Temperature projection at given depth
 }
 \examples{
 projection(simtemperatures, depth = "-80", temp = "temp.present",
-           start = "2000", monthspred = "1
+           start = "2000", monthspred = "12", plot=FALSE)
+}
